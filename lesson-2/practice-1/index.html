@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1">
+  <title>XSS Attack!</title>
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+        rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script type="module">
+    const MDCTextField = mdc.textField.MDCTextField;
+    const MDCRipple = mdc.ripple.MDCRipple;
+    const textField = new MDCTextField(
+      document.querySelector('.mdc-text-field'));
+    const buttonRipple = new MDCRipple(document.querySelector('.mdc-button'));
+  </script>
+  <style>
+      .header {
+          text-align: center;
+      }
+
+      .input {
+          display: flex;
+          width: 300px;
+          margin: 20px auto;
+      }
+
+      .submit {
+          display: flex;
+          justify-content: flex-end;
+          width: 300px;
+          margin: auto;
+      }
+
+      .button-container button {
+          margin: 3px;
+      }
+  </style>
+</head>
+<body>
+<header class="header">
+  <h1>Hello world</h1>
+</header>
+<form action="submit.php"
+      method="POST">
+  <label class="mdc-text-field mdc-text-field--filled input">
+    <span class="mdc-text-field__ripple"></span>
+    <span class="mdc-floating-label"
+          id="name-label">What's your name?</span>
+    <input class="mdc-text-field__input"
+           type="text"
+           name="name"
+           aria-labelledby="name-label">
+    <span class="mdc-line-ripple"></span>
+  </label>
+  <button class="mdc-button mdc-button--raised submit">
+    <span type="submit"
+          class="mdc-button__label">Submit form</span>
+  </button>
+</form>
+</body>
+</html>
