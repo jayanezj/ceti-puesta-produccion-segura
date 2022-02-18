@@ -1,18 +1,26 @@
-[//]: # (Parenthesis + Bubble text )
+[//]: # (Parenthesis + Bubble text ) 
 <h1 align="center">
 🄟ⓤⓔⓢⓣⓐ ⓔⓝ 🄟ⓡⓞⓓⓤⓒⓒⓘⓞⓝ 🄢ⓔⓖⓤⓡⓐ
 </h1>
 
-[//]: # (Small Caps Compatible F)
-<h2 align="center">
-Cɪʙᴇʀsᴇɢᴜʀɪᴅᴀᴅ ᴇɴ Eɴᴛᴏʀɴᴏs ᴅᴇ ʟᴀs Tᴇᴄɴᴏʟᴏɢɪ́ᴀs ᴅᴇ ʟᴀ Iɴғᴏʀᴍᴀᴄɪᴏ́ɴ
-</h2> 
+[//]: # (Bold Sans)
+# 𝗧𝗲𝗺𝗮 𝟮 - 𝗣𝗿𝗮́𝗰𝘁𝗶𝗰𝗮 𝟮 - 𝗫𝗦𝗦 𝗔𝗹𝗺𝗮𝗰𝗲𝗻𝗮𝗱𝗼
 
-## Unidad temática 2
-* #### [Práctica 1 - XSS Reflejado](lesson-2/practice-1/readme.md)
-* #### [Práctica 2 - XSS Almacenado](lesson-2/practice-2/readme.md)
+### [💾 Documento de la práctica](practice.pdf)
+### [💾 Práctica resuelta](practice-resolved.pdf)
 
-## License ©️
+## BeeBox 🐝
+* [OVA OneDrive](https://educajcyl-my.sharepoint.com/:u:/g/personal/josea_yanjim_educa_jcyl_es/EYN66VkSlGhFsUb33LcSTT0B-2oXTCSUubWX6z4kk9elAw?e=T2z2So)
+* [OVA TeraBox](https://terabox.com/s/1Zx-K3XXSh3vnc-gc0Ut3qw)
+
+### Video 🎥
+[![Youtube](https://img.youtube.com/vi/WQzCah3Pmqc/0.jpg)](https://youtu.be/WQzCah3Pmqc)
+
+
+#### [☕ Script XSS](xss-stored.js)
+#### [🧑‍💻 PHP de captura](secure-info.php)
+
+## License
 © 2022 [codigojose.com](https://codigojose.com)
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) ([`LICENSE-APACHE`](https://www.apache.org/licenses/LICENSE-2.0));
