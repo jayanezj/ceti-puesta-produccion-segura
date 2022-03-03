@@ -11,6 +11,7 @@ Cɪʙᴇʀsᴇɢᴜʀɪᴅᴀᴅ ᴇɴ Eɴᴛᴏʀɴᴏs ᴅᴇ ʟᴀs Tᴇᴄɴ
 ## Unidad temática 2
 * #### [Práctica 1 - XSS Reflejado](lesson-2/practice-1/readme.md)
 * #### [Práctica 2 - XSS Almacenado](lesson-2/practice-2/readme.md)
+* #### [Práctica 3 - MySQL & PHP Blue Team](lesson-2/practice-3/readme.md)
 
 ## License ©️
 © 2022 [codigojose.com](https://codigojose.com)
